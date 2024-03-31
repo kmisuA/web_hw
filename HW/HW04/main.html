@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>학번 출력</title>
+<style>
+    canvas {
+        border: 1px solid black;
+    }
+</style>
+</head>
+<body>
+<canvas id="GameScreenCanvas" width="1024" height="600"></canvas>
+
+<script src="main.js"></script>
+<script>
+    var canvas = document.getElementById("GameScreenCanvas");
+    var studentID = 202127014;
+
+    var ctx = canvas.getContext("2d");
+    
+    drawNum(canvas, studentID);
+</script>
+</body>
+</html>
