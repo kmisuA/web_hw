@@ -1,0 +1,18 @@
+/* HTML 백그라운드 색상 */body {
+    background-color: rgb(72, 153, 242);
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -50px;
+    
+}
+
+
+canvas {
+    background-color: rgb(180, 180, 180);
+    width: 480px; 
+    height:800px;
+    margin-top: 50px;
+}
