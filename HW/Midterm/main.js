@@ -90,7 +90,7 @@ function createEnmey(){
     }
 }
 function createEnmey1(){
-    numberOfEnemies = Math.floor(Math.random() * 1) + 2;
+    numberOfEnemies = Math.floor(Math.random() * 10) + 5;
     for (let i = 0; i < numberOfEnemies; i++) {
         createEnmey();
         console.log(numberOfEnemies);
